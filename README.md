@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/Logo/logo_256_enhanced.png" alt="Noteit MCP" width="120" />
+  <img src="assets/log.png" alt="Noteit MCP" width="120" />
 </p>
 
 ## Noteit MCP
@@ -21,6 +21,10 @@ Authentication uses **OAuth 2.1 with device fingerprint** for IDEs that support 
 - **Productive note-taking**: AI-readable notes, tasks, and visual graphs.
 - **Secure by design**: OAuth 2.1 + transparent token refresh; API token for non‑OAuth clients.
 - **Works across IDEs**: Cursor, Claude Code, Gemini CLI, Claude Desktop (via proxy), and more.
+
+<p align="center">
+  <img src="assets/prompt.png" alt="Noteit MCP" width="120" />
+</p>
 
 ### 3) How to connect
 
