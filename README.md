@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/log.png" alt="Noteit MCP" width="120" />
+  <img src="assets/log.png" alt="Noteit MCP" width="180" />
 </p>
 
-## Noteit MCP
+# Noteit MCP
 
 Connect AI assistants to your agent profiles and notes via the Model Context Protocol (MCP).
 
-### 1) What is Noteit MCP?
+## 1) What is Noteit MCP?
 
 Noteit MCP is an HTTP MCP server (Next.js API route) that lets AI coding tools securely access two core systems:
 
@@ -15,7 +15,7 @@ Noteit MCP is an HTTP MCP server (Next.js API route) that lets AI coding tools s
 
 Authentication uses **OAuth 2.1 with device fingerprint** for IDEs that support it, with an optional **API Token** flow for other MCP clients. The server endpoint is exposed at `/api/mcp`.
 
-### 2) Why use Noteit MCP?
+## 2) Why use Noteit MCP?
 
 - **Unified configuration**: Reusable agent profiles that any AI client can adopt.
 - **Productive note-taking**: AI-readable notes, tasks, and visual graphs.
@@ -23,14 +23,16 @@ Authentication uses **OAuth 2.1 with device fingerprint** for IDEs that support 
 - **Works across IDEs**: Cursor, Claude Code, Gemini CLI, Claude Desktop (via proxy), and more.
 
 <p align="center">
-  <img src="assets/prompt.png" alt="Noteit MCP" width="120" />
+  <img src="assets/prompt.png" alt="Noteit MCP UI" width="900" />
+  <br />
+  <em>40+ templates for personas, instructions, rules, and profiles</em>
 </p>
 
-### 3) How to connect
+## 3) How to connect
 
 The MCP server is at `https://www.noteit-mcp.com/api/mcp`.
 
-#### Cursor (mcp.json)
+### Cursor (mcp.json)
 
 Create or update `~/.cursor/mcp.json`:
 
@@ -46,7 +48,7 @@ Create or update `~/.cursor/mcp.json`:
 
 Then restart Cursor. OAuth will be handled automatically.
 
-#### Claude Code (built-in MCP)
+### Claude Code (built-in MCP)
 
 Use the command-line helper (global scope):
 
@@ -60,7 +62,7 @@ Or project scope:
 claude mcp add -s project --transport http noteit-mcp https://www.noteit-mcp.com/api/mcp
 ```
 
-#### Gemini CLI
+### Gemini CLI
 
 Add the server and authenticate:
 
@@ -70,12 +72,12 @@ gemini mcp add --transport http noteit-mcp https://www.noteit-mcp.com/api/mcp
 /mcp  # verify tools are listed
 ```
 
-#### Other IDEs (API Token)
+### Other IDEs (API Token)
 
 Login at [https://www.noteit-mcp.com](https://www.noteit-mcp.com/) to obtain an API token.
 
 
-### License
+## License
 
 MIT
 
