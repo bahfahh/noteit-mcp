@@ -4,7 +4,33 @@
 
 # Noteit MCP
 
-Connect AI assistants to your agent profiles and notes via the Model Context Protocol (MCP).
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-blue.svg)](https://modelcontextprotocol.io/)
+[![OAuth 2.1](https://img.shields.io/badge/Auth-OAuth%202.1-orange.svg)](https://oauth.net/2.1/)
+
+> **🩹 The cure for AI "Markdown Hell" - AI prompt library + visual knowledge hub for developers**
+
+Noteit-MCP transforms drowning in 5,000-word documents into navigable HTML and logic diagrams instantly. With 60+ expert personas, organize complex ideas without cognitive overload. Makes Specification-Driven Development actually human-readable.
+
+## ✨ Demo & Screenshots
+
+<p align="center">
+  <img src="assets/demo/noteweb.png" alt="Noteit Dashboard" width="800" />
+  <br />
+  <em>📊 Unified dashboard with agent profiles and note management</em>
+</p>
+
+<p align="center">
+  <img src="assets/demo/noteweb2.png" alt="Agent Profiles" width="800" />
+  <br />
+  <em>🤖 40+ pre-built agent templates for different coding tasks</em>
+</p>
+
+<p align="center">
+  <img src="assets/demo/noteweb3.png" alt="Note Taking" width="800" />
+  <br />
+  <em>📝 AI-readable notes with graph visualizations</em>
+</p>
 
 ## 1) What is Noteit MCP?
 
@@ -25,7 +51,7 @@ Authentication uses **OAuth 2.1 with device fingerprint** for IDEs that support 
 <p align="center">
   <img src="assets/prompt.png" alt="Noteit MCP UI" width="900" />
   <br />
-  <em>40+ templates for personas, instructions, rules, and profiles</em>
+  <em>60+ expert personas for different coding tasks and workflows</em>
 </p>
 
 ## 3) How to connect
@@ -76,6 +102,11 @@ gemini mcp add --transport http noteit-mcp https://www.noteit-mcp.com/api/mcp
 
 Login at [https://www.noteit-mcp.com](https://www.noteit-mcp.com/) to obtain an API token.
 
+---
+
+## ⭐ Star this project
+
+If Noteit MCP helps streamline your AI workflow, please give it a star! It helps others discover this tool and motivates continued development.
 
 ## License
 
