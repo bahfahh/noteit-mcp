@@ -14,6 +14,8 @@ Noteit-MCP transforms drowning in 5,000-word documents into navigable HTML and l
 
 ## ✨ Demo & Screenshots
 
+🎥 **[Watch Noteit MCP in Action](https://www.youtube.com/watch?v=-cRqrBOzKIc&t=24s)** - Complete usage walkthrough
+
 <p align="center">
   <img src="assets/demo/noteweb.png" alt="Noteit Dashboard" width="800" />
   <br />
