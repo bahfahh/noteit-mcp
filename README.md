@@ -114,6 +114,33 @@ Login at [https://www.noteit-mcp.com](https://www.noteit-mcp.com/) to obtain an 
 
 ---
 
+## 4) Available Tools
+
+Through Noteit-MCP, AI agents can access the following tools:
+
+### 📋 Agent Profile Management
+
+- **noteit_profiles_list**: List all your agent profiles - configuration sets containing personas, instructions, rules, and documents for specific roles or tasks
+- **noteit_profiles_getConfig**: Retrieve a complete composable AI agent configuration profile with all its personas, instructions, rules, and documents
+- **noteit_profiles_generate**: Generate and save individual configuration components (persona, rule, document, instruction) that can be assembled into agent profiles
+
+### 📝 Note Management
+
+- **noteit_notes_create**: Create project notes with 4 specialized types:
+  - `note` - General records and documentation
+  - `task` - Development assignments and to-dos
+  - `why` - Explanations and decision rationale
+  - `issue` - Problems, bugs, and troubleshooting
+- **noteit_notes_read**: Retrieve complete content of a specific note by its unique ID
+- **noteit_notes_list**: Browse and filter all user notes across projects with optional filtering by tags, record types, or project names
+
+### 🌐 Visual Documentation
+
+- **noteit_web_create**: Generate interactive HTML notes to help developers understand complex concepts, processes, or technical details
+- **noteit_flow_create**: Create visual flow diagrams with nested data support for technical process visualization
+
+---
+
 ## ⭐ Star this project
 
 If Noteit MCP helps streamline your AI workflow, please give it a star! It helps others discover this tool and motivates continued development.
